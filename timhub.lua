@@ -20,6 +20,7 @@ local OpenButton = Instance.new("TextButton")
 
 TimHub.Name = "TimHub"
 TimHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TimHub.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = TimHub
